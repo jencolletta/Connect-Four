@@ -6,9 +6,8 @@
 *
 * Final Project:  Connect Four
 *
-* Compiler:  Visual Studio 2015
+* Compiler:  Visual Studio
 *
-* Date:  May 4, 2016
 *
 *******************************************/
 #include<stdio.h>
@@ -661,7 +660,7 @@ void losespanish(char p1[])									//myown
 	winloss scores[100];
 	FILE* myin; FILE* myout;
 	printf("Lo sentimos , %s perdiste.\n", p1);
-	printf("Le gustaría ver una lista de los registros de victorias / derrotas ? (y o n)");
+	printf("Le gustarï¿½a ver una lista de los registros de victorias / derrotas ? (y o n)");
 	scanf(" %c", &answer);
 	myin = fopen("winloss.txt", "r");
 	numbitems = readScores(scores, myin);				//struct
@@ -672,7 +671,7 @@ void losespanish(char p1[])									//myown
 		printScores(scores, numbitems);					//struct
 	}
 	else
-		printf("Gracias por jugar Conecta Cuatro ! Su puntuación se ha actualizado!\n");
+		printf("Gracias por jugar Conecta Cuatro ! Su puntuaciï¿½n se ha actualizado!\n");
 	//myout = fopen("winloss.txt", "w");
 	//a = search(scores, p1, numbitems);
 	//if (a == -1)
@@ -688,7 +687,7 @@ void drawspanish(char p1[])												//myown
 	char answer; int numbitems, a;
 	FILE* myin; FILE* myout;
 	printf("Es un empate!\n");
-	printf("Le gustaría ver una lista de los registros de victorias / derrotas ? (y o n)");
+	printf("Le gustarï¿½a ver una lista de los registros de victorias / derrotas ? (y o n)");
 	scanf(" %c", &answer);
 	myin = fopen("winloss.txt", "r");
 	numbitems = readScores(scores, myin);				//struct
