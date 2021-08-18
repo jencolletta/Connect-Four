@@ -1,13 +1,8 @@
 /******************************************
 *
-* Official Name: Jennifer Colletta
-*
-* E-mail:  jrcollet@syr.edu
-*
-* Final Project:  Connect Four
+* Name: Jennifer Colletta
 *
 * Compiler:  Visual Studio
-*
 *
 *******************************************/
 #include<stdio.h>
